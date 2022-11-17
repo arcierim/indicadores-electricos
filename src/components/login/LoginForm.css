@@ -1,0 +1,91 @@
+.loginBackground {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../assets/Wallpaper.jpg");
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer {
+  width: 700px;
+  height: 700px;
+  border-radius: 12px;
+  background-color: #313844;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.loginContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+
+.Image {
+  height: 100px;
+  width: 300px;
+}
+
+.loginContainer .body {
+  flex: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  columns: 10px;
+}
+
+.loginContainer .body .Name {
+  flex: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  color: black;
+}
+
+.loginContainer .body .form {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.loginContainer .footer {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Link {
+  width: 150px;
+  height: 45px;
+  background-color: cornflowerblue;
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}

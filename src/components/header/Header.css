@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: gray;
+  width: 100%;
+  padding-left: 50px;
+  z-index: 1;
+  display: center;
+}
+
+.navbar-logo {
+  height: 80px;
+  line-height: 80px;
+  color: white;
+}
+
+.logo {
+  height: 60px;
+  width: 200px;
+  position: fixed;
+  margin-left: 750px;
+}
