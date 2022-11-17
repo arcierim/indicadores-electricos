@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home/Home";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
-import inputReducer from "./Components/redux/inputs";
+import inputReducer from "./components/redux/inputs";
 
 const store = configureStore({ reducer: { input: inputReducer } });
 

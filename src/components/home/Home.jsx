@@ -21,7 +21,7 @@ function Home() {
       await axios.post(url, {
         month: mes,
         day: dia,
-        ts: 0,
+        ts: ts,
       })
     } catch (error) {
       console.log(error)
