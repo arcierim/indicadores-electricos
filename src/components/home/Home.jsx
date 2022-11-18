@@ -12,7 +12,7 @@ function Home() {
   const [mes, setMes] = useState()
   const [ts, setTs] = useState()
   const [kWh, setKwh] = useState()
-  const url = "https://3.236.86.132:5000/lectura/"
+  const url = "https://44.200.86.249:5000/lectura/"
   const dispatch = useDispatch()
 
   const handleSubmit = async (e) => {

@@ -7,7 +7,7 @@ function Data() {
 
   const input = useSelector((state) => state.input.value)
 
-  const url = "https://3.236.86.132:5000/lectura/"
+  const url = "https://44.200.86.249:5000/lectura/"
 
   const fetchData = async () => {
     axios

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import { useSelector } from "react-redux"
 
 function LoginForm(setOpenModal) {
-  const url = "https://3.236.86.132:5000/lectura/"
+  const url = "https://44.200.86.249:5000/lectura/"
   const input = useSelector((state) => state.input.value)
   fetch(url, {
     method: "POST",
